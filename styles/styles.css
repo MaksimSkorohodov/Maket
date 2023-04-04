@@ -83,6 +83,15 @@
 
     color: #000000;
 }
+.card{
+    min-height: 480px;
+    min-width: 359px;
+    background: #FFFFFF;
+
+
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
 .main__smart-home{
     position: relative;
 }

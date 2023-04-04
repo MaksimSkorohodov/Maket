@@ -1,6 +1,6 @@
 .header{
     min-height: 400px;
-    background-image: url("/content/header_background.png");
+    background-image: url("../content/header_background.png");
     background-size: contain;
     display: flex;
 }
@@ -24,7 +24,7 @@
 }
 .header__wrapper{
     flex-grow: 1;
-    background-image: url(/content/header_element.png);
+    background-image: url("../content/header_element.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right ;
@@ -69,6 +69,19 @@
 }
 .header__button:hover{
     background: #418bcb
+}
+.what-we-do{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
 }
 .main__smart-home{
     position: relative;
